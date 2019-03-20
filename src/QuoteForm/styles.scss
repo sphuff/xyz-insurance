@@ -1,0 +1,22 @@
+@import "../_variables.scss";
+
+.quote-form {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .form-input-container {
+        display: flex;
+        flex-direction: column;
+        input, select {
+            margin: 10px;
+            width: 100%;
+        }
+        
+    }
+    
+    button {
+        @extend %xyz-button;
+    }
+}

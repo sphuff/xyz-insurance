@@ -1,0 +1,26 @@
+@import "./_variables.scss";
+
+#header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $xyz-primary-color;
+    padding: 0 20px;
+    img {
+        width: 40px;
+        height: 40px;
+        background-color: blue;
+    }
+
+    .header-link-container {
+        > * {
+            color: #fff;
+        }
+        a {
+            margin: 0 20px;
+        }
+    }
+}

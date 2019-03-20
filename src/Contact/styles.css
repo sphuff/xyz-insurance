@@ -1,0 +1,12 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+}
+.contact h1 {
+  color: #4652af;
+}

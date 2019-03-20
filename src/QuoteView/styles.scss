@@ -1,0 +1,28 @@
+@import "../_variables.scss";
+
+.loading-indicator {
+    color: #ffffff;
+}
+
+.quote-success-view, .quote-failure-view {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    z-index: 1;
+    width: 100%;
+    
+    h1 {
+        color: $xyz-primary-color;
+    }
+}
+
+.quote-failure-view {
+    h1 {
+        color: darkred;
+    }
+    .quote-failure-error-reason {
+        margin-left: 10px;
+    }
+}
