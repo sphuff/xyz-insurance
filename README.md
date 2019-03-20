@@ -1,3 +1,7 @@
+## Getting started
+
+To run the project, you will need to do an `npm install`, and then start up the proxy server (instructions below).
+
 ## Proxy Server
 
 In order to fulfill cross-origin requests, this project uses a simple proxy server to make requests. In order to spin up the proxy server, run `npm run proxy-server`.
